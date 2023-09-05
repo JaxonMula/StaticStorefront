@@ -1,0 +1,163 @@
+body {
+    background-color: orange;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    padding: 1em;
+    border-radius: 0 0 150px 150px;
+}
+
+.navbar .login-button {
+    float: left;
+    margin-left: 20px;
+    padding: 10px 15px;
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.navbar .logo {
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.navbar .logo img {
+    width: 150px;
+}
+
+.navbar .buttons {
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar .buttons .button {
+    margin-right: 10px;
+    padding: 10px 15px;
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin: 20px;
+}
+.about-container {
+    display: flex;
+    align-items: center;
+    padding: 2em;
+}
+
+.aboutustext {
+    background-color: black;
+    height: 700px;
+    width: 760px;
+    color: orange;
+    padding: 2em;
+    border-radius: 45px;
+    margin-left: 2em;
+}
+
+.freddysing {
+    margin-left: 150px;
+}
+
+.freddysing img {
+    height: 700px;
+    width: 500px;
+    text-align: right;
+    border-radius: 45px;
+}
+hr{
+background-color: black;
+border: none;
+height: 10px;
+
+}
+h1{
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: black;
+}
+.button-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    padding: 20px;
+}
+
+.text-area {
+    flex: 2;
+    padding: 20px;
+    background-color: black;
+    border-radius: 45px;
+    color: orange;
+    text-align: center;
+}
+.button{
+    background-color: rgb(245, 198, 111);
+}
+
+ul{
+    background-color: black;
+    padding: 2em;
+    color: orange;
+    align-items: center;
+    text-align: center;
+
+}
+.register-container{
+    align-items: center;
+    padding: 5em;
+    text-align: center;
+    flex: 1;
+    display: block;
+   align-items: center;
+
+    
+}
+h2{
+    color: orange;
+}
+.info{
+    margin: 1em;
+}
+
+.disclaimer-container{
+   flex: 1;
+   padding: 20px;
+   border: 1px solid black;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
